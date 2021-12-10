@@ -14,6 +14,13 @@ namespace Bakery.Tests
     }    
     
     [TestMethod]
+    public void PastryCost_GetCostofTotalPastry_Num()
+    {
+      Pastry newPastry = new Pastry();
+      Assert.AreEqual(9, newPastry.PastryCost(5));
+    }
+
+    [TestMethod]
     public void PastryCost_GetCostofOnePastry_Num()
     {
       Pastry newPastry = new Pastry();
