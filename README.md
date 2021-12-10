@@ -27,9 +27,13 @@ _The user will be asked to buy loaves of bread and pastries. The user will input
 * Navigate to `Bakery/Bakery` and run the command `dotnet run` to run the project
 
 ## Known Bugs
+
 * _No known bugs_
 
 ## License
-_MIT License: https://opensource.org/licenses/MIT_
 
-Copyright (c) _2021_ _Katie Pundt and Albert Lee_
+[MIT](https://opensource.org/licenses/MIT)
+
+## Contact Information
+
+Copyright (c) 2021 Albert Lee

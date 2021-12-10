@@ -2,9 +2,11 @@ namespace Bakery.Models
 {
   public class Bread
   {
-      int total = 0;
+    public int total {get; set; }
+
     public int BreadCost(int number)
     {
+      total =0;
       for (int i = 1; i <= number; i++)
       {
         if (i % 3 == 0)
