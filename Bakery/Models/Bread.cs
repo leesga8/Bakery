@@ -2,21 +2,20 @@ namespace Bakery.Models
 {
   public class Bread
   {
+      int total = 0;
     public int BreadCost(int number)
     {
-      int total = 0;
-      for (int i = 0; i < number; i++)
+      for (int i = 1; i <= number; i++)
       {
+
         if (i % 3 == 0)
         {
           total += 0;
-        } else if(i)
-        {
+        } else {
           total += 5;
         }
       }
       return total;
-    }
       /*
       user will enter number of bread they want.
       buy 2 get 1 free
@@ -27,5 +26,6 @@ namespace Bakery.Models
       else if{i %3 !=0 }
         total += 5
         */
+    }
   }
 }
